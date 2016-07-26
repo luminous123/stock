@@ -12,7 +12,7 @@ public class HomeController {
     @RequestMapping({"/","/index"})
     public String showHomePage(Map<String,Object> model)
     {
-        model.put("WelcomeWords", "»¶Ó­Äã£¬ÀÏ´ó");
+        model.put("WelcomeWords", "hello world");
         //System.out.println("showHomepage executed, using stock");
         
         return "index";
